@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title>JavaScript program to calculate multiplication and division of two numbers </title>
+<style type="text/css">
+body {margin: 30px;}
+</style> 
+<script src="test.js"></script>
+</head>
+<body>
+<form>
+Day : <input type="number"
+        id="days"
+        max="31"
+        min="1"
+        maxlength="3"
+        pattern="/^-?\d+\.?\d*$/"
+        onKeyPress="if(this.value.length==2)
+        return false;
+       "/><br><br>
+Month: <input type="number" id="months" max="12" min="1" maxlength="3"/><br><br>
+Year: <input type="number" id="years" /><br><br>
+
+<input type="button" onClick="calcDay()" Value="Convert" />
+
+</form>
+<p>The Result is : <br>
+<span id = "result"></span>
+</p>
+</body>
+</html>
