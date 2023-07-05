@@ -15,12 +15,13 @@
 
 
 
-let input = document.querySelector("input");
-let btn = document.querySelector("button");
-let result = document.querySelector(".result");
+let o;
+function myFunction(o) {
 
-btn.addEventListener("click", () => {
-    const total = input.valueAsDate / 60;
-    document.querySelector(".result").innerHTML = total;
-    console.log(total)
-})
+  var x = document.getElementById("myText").value;
+  let u = (2*3.14*(x-172)/365);
+  o = 38.27 * (Math.cos(u)) + 727.55;
+    x = parseFloat(o).toFixed(2);
+  document.getElementById("demo").innerHTML = x;
+}
+
