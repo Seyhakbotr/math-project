@@ -4,6 +4,7 @@
 }
 
 * {
+    font-family: "Monsterrat";
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -114,12 +115,28 @@ a.active,a:hover {
 section {
     background: #00ADB5;
     background-size: cover;
+    display: block;
     /* background-image: url(image/adventure-alps-background-547114.jpg); */
-    height: calc(100vh - 80px);
+    height: calc(140vh - 80px);
 }
 .convert {
     padding-top: 3em;
-    margin-left: 60em;
-  
+    text-align: center;
+    font-size: 2em;
     
+}
+#result {
+    /* padding-top: 2em; */
+    color: #FF2E63;
+    font-size: 3em;
+}
+#days {
+    text-align: center;
+}
+#months {
+    text-align:  center;
+
+}
+#years {
+    text-align: center;
 }
