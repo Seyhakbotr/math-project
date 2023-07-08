@@ -72,7 +72,7 @@ a.active,a:hover {
 #check {
     display: none ;
 }
-/* @media (max-width: 952px) {
+@media (max-width: 952px) {
     label-logo {
         font-size: 30px;
         padding-left: 50px;
@@ -112,7 +112,7 @@ a.active,a:hover {
         left: 0;
     }
     
-} */
+}
 section {
     background: #00ADB5;
     background-size: cover;
