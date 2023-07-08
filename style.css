@@ -19,6 +19,7 @@
 }
 body {
     font-family: monsterrat;
+   
 }
 nav {
     background: #393E46;
@@ -117,14 +118,17 @@ section {
     background-size: cover;
     display: block;
     /* background-image: url(image/adventure-alps-background-547114.jpg); */
-    height: calc(140vh - 80px);
+    height: calc(220vh - 80px);
 }
+
 .convert {
     padding-top: 3em;
     text-align: center;
     font-size: 2em;
     
+    
 }
+
 #result {
     /* padding-top: 2em; */
     color: #FF2E63;
@@ -139,4 +143,23 @@ section {
 }
 #years {
     text-align: center;
+}
+.homepage {
+    text-align: center;
+    overflow: visible;
+    background: #00ADB5;
+    height: calc(100vh - 80px);
+    padding-top: 5em;
+    font-size: 2.5em;
+}
+.convert.homepage {
+    padding-top: 8em;
+    
+    
+}
+.iframe {
+    padding-top: 6em;
+}
+p {
+    color: #CBFFA9;
 }
