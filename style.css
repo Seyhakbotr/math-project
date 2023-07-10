@@ -82,7 +82,7 @@ a.active,a:hover {
     }
     
 }
-@media (max-width: 858px) {
+/* @media (max-width: 858px) {
     .checkbtn {
         display: block;
     }
@@ -112,7 +112,7 @@ a.active,a:hover {
         left: 0;
     }
     
-}
+} */
 section {
     background: #00ADB5;
     background-size: cover;
