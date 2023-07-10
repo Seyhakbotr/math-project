@@ -40,14 +40,14 @@ function calcSvayRieng()
            else{
             document.getElementById("result").innerHTML = total + " Minutes ";
           }
-       
+       asdsd
          
          // if (year % 400 == 0 || (year % 100 != 0 && year % 4 == 0)) {
          //    if (month == 2 && day > 29){
          //       document.getElementById("result").innerHTML = "Leap month has only 29 days";
 
          //    } else {
-         //       getMonth = month * 28.4;
+         //       getMonth2 = month * 28.4;
          //       total = day + getMonth;
          //       document.getElementById("result").innerHTML = total + " Minutes ";
          //    }
