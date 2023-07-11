@@ -128,12 +128,13 @@ section {
     
     
 }
-
+#resultHour,
 #result {
     /* padding-top: 2em; */
     color: #FF2E63;
-    font-size: 3em;
+    font-size: 2em;
 }
+
 #days {
     text-align: center;
 }
