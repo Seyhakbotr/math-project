@@ -6,7 +6,7 @@ function calcSvayRieng()
          year = document.getElementById("years").value;
          getMonth = month * 30.417;
          total = day + getMonth;
-         u = (2*3.14*(total-104)/365);
+         u = (2*3.14*(total-172)/365);
           o = 39.2 * (Math.cos(u)) + 727.6;
             total = parseFloat(o).toFixed(2);
             hour = parseFloat(total/60).toFixed(2);
@@ -58,7 +58,7 @@ function calcDayBanteay(){
    year = document.getElementById("years").value;
    getMonth = month * 30.417;
    total = day + getMonth;
-   u = (2*3.14*(total-104)/365);
+   u = (2*3.14*(total-172)/365);
    o = 48.65 * (Math.cos(u)) + 727.65;
    total = parseFloat(o).toFixed(2);
    hour = parseFloat(total/60).toFixed(2);
@@ -98,7 +98,7 @@ function calcDayLaos() {
    year = document.getElementById("years").value;
    getMonth = month * 30.417;
    total = day + getMonth;
-   u = (2*3.14*(total-104)/365);
+   u = (2*3.14*(total-172)/365);
     o = 69.7 * (Math.cos(u)) + 732.9;
       total = parseFloat(o).toFixed(2);
       hour = parseFloat(total/60).toFixed(2);
