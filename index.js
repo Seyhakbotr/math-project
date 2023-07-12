@@ -7,11 +7,9 @@ function calcSvayRieng()
          getMonth = month * 30.417;
          total = day + getMonth;
          u = (2*3.14*(total-172)/365);
-          o = (39.2 * (Math.cos(u)) + 727.6) * 10;
-           
+          o = (39.2 * (Math.cos(u)) + 727.6) ;
            
             total = parseFloat(o).toFixed(2);
-            
            
             hour = parseFloat(total/60).toFixed(2);
          if (month > 12 || month < 0){
